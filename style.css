@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f3f7f9;
+    color: #333;
+}
+
+.header {
+    background-color: #fcdac0;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.brand-name {
+    font-size: 24px;
+    color: #e74c3c;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.hero-section {
+    padding: 50px;
+}
+
+.hero-section h2 {
+    font-size: 36px;
+    color: #e74c3c;
+}
+
+.hero-section p {
+    font-size: 18px;
+    margin: 20px 0;
+    color: #555;
+}
+
+.cta-button {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #c0392b;
+}
+
+.about-section,
+.products-section,
+.services-section,
+.footer {
+    padding: 50px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.product-grid,
+.service-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-card,
+.service-card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 45%;
+    margin: 20px 0;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.contact-form button {
+    padding: 10px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: green;
+}
+
+.footer p {
+    margin-top: 20px;
+}
+
+.products-section>h2:hover{
+    color: rgb(38, 97, 226);
+    cursor: pointer;
+}
+
+.about-section>h2:hover{
+    color: rgb(38, 97, 226);
+    cursor: pointer;
+}
+.cta-button:hover{
+    background-color: green;
+}
+
+.hero-section>h2:hover{
+    color: rgb(38, 97, 226);
+    cursor: pointer;
+}
+.brand-name:hover{
+color: rgb(38, 97, 226);
+}
+
+.nav-links>li>a:hover{
+    color: rgb(38, 97, 226);
+}
+
+.services-section>h2:hover{
+    color: rgb(38, 97, 226);
+    cursor: pointer;
+}
+.footer>h2:hover{
+    color: rgb(38, 97, 226);
+    cursor: pointer;
+}
+.service-card>h3:hover{
+    color: rgb(38, 97, 226);
+    cursor: pointer;
+}
+.product-card>h3:hover{
+    color: rgb(38, 97, 226);
+    cursor: pointer;
+}
